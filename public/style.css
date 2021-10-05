@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#convertion-container {
+    width: 65%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /*margin: auto;*/
+}
+
+.convertion-title {
+    display: block;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+.convertion-description {
+    display: block;
+    text-align: center;
+}
+
+#convertion-actions-box {
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+#convertion-actions-box input {
+    margin: 5px;
+}
+
+#playlist-url {
+    width: 70%;
+    padding: 5px;
+}
+
+#start-convertion-btn {
+    min-width: 62px;
+    width: 15%;
+}
