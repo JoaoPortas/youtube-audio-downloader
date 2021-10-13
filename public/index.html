@@ -11,16 +11,21 @@
 </head>
 <body>
     <main>
-        <article id="convertion-container">
-            <label class="convertion-title">Youtube Playlist MP3 Convertor</label>
-            <label class="convertion-description">Copy and past a playlist link form youtube to convert and download all the musics</label>
+        <article id="converter-content">
 
-            <div id="convertion-actions-box">
-                <input id="playlist-url" type="text" name="" id="" placeholder="https://www.youtube.com/playlist?list=PLF8F5hT8AsuLLoHEkZYw0qanIItyZWkH_">
-                <input id="start-convertion-btn" type="button" value="Convert">
+            <label class="title">Youtube Playlist MP3 Convertor</label>
+            <label class="description">Copy and past a playlist link form youtube to convert and download all the musics</label>
+
+            <div id="converter">
+                <input id="url" type="text" name="" id="" placeholder="https://www.youtube.com/watch?v=66h-HwM8-lU">
+                <input id="download" type="button" value="Convert">
             </div>
+
+            <iframe id="download-frame" style="display: none;"></iframe>
             
         </article>
     </main>
+
+    <script type="text/javascript" src="code.js"></script>
 </body>
 </html>

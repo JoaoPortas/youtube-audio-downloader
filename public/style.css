@@ -9,7 +9,7 @@ main {
     justify-content: center;
 }
 
-#convertion-container {
+#converter-content{
     width: 65%;
     display: flex;
     flex-flow: column;
@@ -17,19 +17,19 @@ main {
     /*margin: auto;*/
 }
 
-.convertion-title {
+#converter-content .title {
     display: block;
     font-size: larger;
     font-weight: bold;
     text-align: center;
 }
 
-.convertion-description {
+#converter-content .description {
     display: block;
     text-align: center;
 }
 
-#convertion-actions-box {
+#converter-content #converter {
     display: block;
     width: 100%;
     display: flex;
@@ -37,16 +37,16 @@ main {
     justify-content: center;
 }
 
-#convertion-actions-box input {
+#converter-content #converter input {
     margin: 5px;
 }
 
-#playlist-url {
+#converter-content #converter #url {
     width: 70%;
     padding: 5px;
 }
 
-#start-convertion-btn {
+#converter-content #converter #download-btn {
     min-width: 62px;
     width: 15%;
 }

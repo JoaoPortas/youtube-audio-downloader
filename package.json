@@ -1,0 +1,23 @@
+{
+  "name": "youtube-audio-downloader",
+  "version": "1.0.0",
+  "description": "A youtube mp3 converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoPortas/youtube-audio-downloader.git"
+  },
+  "author": "Joao Portas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoPortas/youtube-audio-downloader/issues"
+  },
+  "homepage": "https://github.com/JoaoPortas/youtube-audio-downloader#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ytdl-core": "^4.9.1"
+  }
+}
